@@ -7,8 +7,8 @@ FUENTE: https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-h
 
 El dataset está conformado por 18 variables, la variable objetivo 'EnfermedadCardiaca', la cual es una variable categórica que indica si el individuo presenta o no alguna enfermedad cardiaca, 13 variables categóricas, que indican si el individuo presenta o no determinada condición, o describen alguna característica del mismo, las cuales son, 'Fumar', 'ConsumoAlcohol', 'AccidenteCerebroVascular', 'DificultadCaminar', 'Sexo', 'Edad'(categórica ya que la edad se encuentra diferenciada por rangos etarios), 'Raza', 'Diabetes', 'ActividadFísica', 'SaludGeneral', 'Asma', 'EnfermedadRenal', 'CancerDePiel', y 4 variables numéricas, 'IMC', 'SaludFisica', 'SaludMental' y 'HorasSueño'. A continuación se describen en detalle cada una de ellas:
 
-EnfermedadCardiaca: Encuestados que han reportado alguna vez haber tenido enfermedad coronaria o infarto de miocardio. Variable objetivo.
-IMC: Índice de Masa Corporal.
+*EnfermedadCardiaca: Encuestados que han reportado alguna vez haber tenido enfermedad coronaria o infarto de miocardio. Variable objetivo.
+*IMC: Índice de Masa Corporal.
 Fumar: ¿Has fumado al menos 100 cigarrillos en toda tu vida?
 ConsumoAlcohol: Bebedores frecuentes (hombres adultos que toman más de 14 bebidas por semana y mujeres adultas que toman más de 7 bebidas por semana).
 AccidenteCerebroVascular: ¿Alguna vez te han dicho que tuviste un accidente cerebrovascular?
