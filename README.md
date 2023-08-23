@@ -7,40 +7,38 @@ FUENTE: https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-h
 
 El dataset está conformado por 18 variables, la variable objetivo 'EnfermedadCardiaca', la cual es una variable categórica que indica si el individuo presenta o no alguna enfermedad cardiaca, 13 variables categóricas, que indican si el individuo presenta o no determinada condición, o describen alguna característica del mismo, las cuales son, 'Fumar', 'ConsumoAlcohol', 'AccidenteCerebroVascular', 'DificultadCaminar', 'Sexo', 'Edad'(categórica ya que la edad se encuentra diferenciada por rangos etarios), 'Raza', 'Diabetes', 'ActividadFísica', 'SaludGeneral', 'Asma', 'EnfermedadRenal', 'CancerDePiel', y 4 variables numéricas, 'IMC', 'SaludFisica', 'SaludMental' y 'HorasSueño'. A continuación se describen en detalle cada una de ellas:
 
-EnfermedadCardiaca: Encuestados que han reportado alguna vez haber tenido enfermedad coronaria o infarto de miocardio. Variable objetivo.
+>-EnfermedadCardiaca: Encuestados que han reportado alguna vez haber tenido enfermedad coronaria o infarto de miocardio. Variable objetivo.
+>-IMC: Índice de Masa Corporal.
+>-Fumar: ¿Has fumado al menos 100 cigarrillos en toda tu vida?
 
-IMC: Índice de Masa Corporal.
+-ConsumoAlcohol: Bebedores frecuentes (hombres adultos que toman más de 14 bebidas por semana y mujeres adultas que toman más de 7 bebidas por semana).
 
-Fumar: ¿Has fumado al menos 100 cigarrillos en toda tu vida?
+-AccidenteCerebroVascular: ¿Alguna vez te han dicho que tuviste un accidente cerebrovascular?
 
-ConsumoAlcohol: Bebedores frecuentes (hombres adultos que toman más de 14 bebidas por semana y mujeres adultas que toman más de 7 bebidas por semana).
+-SaludFisica: Pensando en tu salud física, que incluye enfermedades y lesiones físicas, ¿durante cuántos días de los últimos 30 días tu salud física fue mala?
 
-AccidenteCerebroVascular: ¿Alguna vez te han dicho que tuviste un accidente cerebrovascular?
+-SaludMental: Pensando en tu salud mental, ¿durante cuántos días de los últimos 30 días tu salud mental no fue buena?
 
-SaludFisica: Pensando en tu salud física, que incluye enfermedades y lesiones físicas, ¿durante cuántos días de los últimos 30 días tu salud física fue mala?
+-DificultadCaminar: ¿Tienes dificultades graves para caminar o subir escaleras?
 
-SaludMental: Pensando en tu salud mental, ¿durante cuántos días de los últimos 30 días tu salud mental no fue buena?
+-Sexo: ¿Eres hombre o mujer?
 
-DificultadCaminar: ¿Tienes dificultades graves para caminar o subir escaleras?
+-Edad: Categoría de edad de catorce niveles.
 
-Sexo: ¿Eres hombre o mujer?
+-Raza: Raza/etnicidad.
 
-Edad: Categoría de edad de catorce niveles.
+-Diabetes: ¿Alguna vez te han dicho que tienes diabetes?
 
-Raza: Raza/etnicidad.
+-ActividadFísica: Adultos que informaron haber realizado actividad física o ejercicio en los últimos 30 días que no fuera parte de su trabajo habitual.
 
-Diabetes: ¿Alguna vez te han dicho que tienes diabetes?
+-SaludGeneral: Estado de salud general.
 
-ActividadFísica: Adultos que informaron haber realizado actividad física o ejercicio en los últimos 30 días que no fuera parte de su trabajo habitual.
+-HorasSueño: En promedio, ¿cuántas horas de sueño obtienes en un período de 24 horas?
 
-SaludGeneral: Estado de salud general.
+-Asma: ¿Alguna vez te han dicho que tienes asma?
 
-HorasSueño: En promedio, ¿cuántas horas de sueño obtienes en un período de 24 horas?
+-EnfermedadRenal: Sin incluir piedras en los riñones, infección de la vejiga o incontinencia, ¿alguna vez te han dicho que tienes enfermedad renal?
 
-Asma: ¿Alguna vez te han dicho que tienes asma?
-
-EnfermedadRenal: Sin incluir piedras en los riñones, infección de la vejiga o incontinencia, ¿alguna vez te han dicho que tienes enfermedad renal?
-
-CancerDePiel: ¿Alguna vez te han dicho que tienes cáncer de piel?
+-CancerDePiel: ¿Alguna vez te han dicho que tienes cáncer de piel?
 
 Podría a partir del conjunto de datos predecirse la enfermedad cardiaca en pacientes en función de su historial médico? Esto puede ser útil para los profesionales de la salud en la identificación de pacientes que pueden estar en riesgo de desarrollar alguna enfermedad cardiaca y en el desarrollo de planes de tratamiento personalizados. Además, se puede explorar las relaciones entre varios factores médicos y la probabilidad de desarrollar otras enfermedades.
